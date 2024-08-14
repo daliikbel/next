@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from "next/image";
+
 
 const Projects = () => {
   return (
@@ -14,6 +16,16 @@ const Projects = () => {
       </nav>
       <br></br>
       <h1>My Projects</h1>
+      <br></br>
+      <Image
+        src="/image/image.png"
+        width={300}
+        height={200}
+        alt="Project"
+      />
+      <br></br>
+      <p>
+      "A web development project where I designed and built a responsive, user-friendly website. I focused on creating a seamless user experience and clean, efficient code using modern web technologies."</p>
     </div>
   );
 };
